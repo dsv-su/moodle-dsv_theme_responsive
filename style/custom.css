@@ -16,6 +16,51 @@ a.logo {
     float: right;
 }
 
+
+
+.navbar .container-fluid{
+    background-color: #002f5f;
+    /*border-bottom: 5px solid #DA5013;*/
+    color: #fff;
+    text-shadow: none;
+}
+
+.navbar .navbar-text{
+    background-color: #002f5f;
+    /*border-bottom: 5px solid #DA5013;*/
+    color: #fff;
+    text-shadow: none;
+}
+
+.navbar .navbar-text a{
+    background-color: #002f5f;
+    /*border-bottom: 5px solid #DA5013;*/
+    color: #FFAF0A;
+    text-shadow: none;
+}
+
+.navbar .nav>li>a{
+    background-color: #002f5f;
+    color: #fff;
+    text-shadow: none;
+}
+
+.navbar .nav>li>a:hover{
+    background-color: #fff;
+    color: #002f5f;
+    text-shadow: none;
+}
+
+.navbar .nav>li{
+    color: #fff;
+    text-shadow: none;
+}
+
+.navbar .brand {
+    color: #fff;
+    text-shadow: none;
+}
+
 /* Custom CSS Settings
 -------------------------*/
 [[setting:customcss]]
