@@ -132,15 +132,13 @@ function theme_dsv_theme_responsive_get_html_for_settings(renderer_base $output,
         $return->navbarclass .= ' navbar-inverse';
     }
 
-    if (!empty($page->theme->settings->logo)) {
-        $return->heading = html_writer::link($CFG->wwwroot, '', array('title' => get_string('home'), 'class' => 'logo'));
-    } else {
-        $return->heading = $output->page_heading();
-    }
+    $return->heading = html_writer::link($CFG->wwwroot, '', array('title' => get_string('home'), 'class' => 'logo'));
 
     $return->footnote = '';
     if (!empty($page->theme->settings->footnote)) {
         $return->footnote = '<div class="footnote text-center">'.$page->theme->settings->footnote.'</div>';
+    } else {
+        $return->footnote = '<div class="footnote text-center">'.get_string("footer", "theme_dsv_theme_responsive").'</div>';
     }
 
     return $return;
