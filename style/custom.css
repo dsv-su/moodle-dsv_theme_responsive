@@ -15,7 +15,10 @@ a.logo {
     float: right;
 }
 
-
+.navbar .navbar-inner {
+    border-color: #002f5f;
+    box-shadow: none;
+}
 
 .navbar .container-fluid{
     background-color: #002f5f;
@@ -62,6 +65,7 @@ a.logo {
 
 .dsvlogo {
     margin:-20px;
+    margin-bottom: 10px;
     width: calc(100%+20px);
     background-color: #002f5f;
     height: 130px;
