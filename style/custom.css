@@ -1,17 +1,16 @@
 /* Custom CSS
 -------------------------*/
 a.logo {
-    background: url([[setting:logo]]) no-repeat 0 0;
+    background: url([[pix:theme|dsv-logo-en]]) no-repeat 0 0;
     display: block;
     float: left;
-    height: 75px;
-    margin: 0;
-    padding: 0;
+    height: 130px;
+    margin-left: 20px;
     width: 100%;
 }
 
 .dir-rtl a.logo {
-    background: url([[setting:logo]]) no-repeat 100% 0;
+    background: url([[pix:theme|dsv-logo-en]]) no-repeat 100% 0;
     display: block;
     float: right;
 }
@@ -61,6 +60,12 @@ a.logo {
     text-shadow: none;
 }
 
+.dsvlogo {
+    margin:-20px;
+    width: calc(100%+20px);
+    background-color: #002f5f;
+    height: 130px;
+}
+
 /* Custom CSS Settings
 -------------------------*/
-[[setting:customcss]]
