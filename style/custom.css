@@ -5,8 +5,8 @@ a.logo {
     display: block;
     float: left;
     height: 130px;
-    margin-left: 20px;
     width: 100%;
+    max-width: 730px;
 }
 
 .dir-rtl a.logo {
@@ -68,11 +68,54 @@ a.logo {
     text-shadow: none;
 }
 
+@media(max-width: 979px) {
+    .navbar-fixed-top .navbar-inner {
+        padding: 0px;
+    }
+    .navbar-fixed-bottom .navbar-inner {
+        padding: 0px;
+    }
+    .navbar {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .dsvlogo {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+    .navbar .brand {
+        padding-left: 0px;
+        margin: 0;
+    }
+}
+
+@media(max-width: 767px) {
+    .navbar .brand {
+        padding-left: 20px;
+        margin: 0;
+
+    }
+        .navbar-fixed-top .navbar-inner {
+        padding: 0px;
+    }
+    .navbar-fixed-bottom .navbar-inner {
+        padding: 0px;
+    }
+    .navbar {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+    .navbar .btn-navbar {
+        margin-right: 10px;
+    }
+}
+
 .dsvlogo {
     /*margin:-20px;*/
     margin-top: -20px;
     margin-bottom: 10px;
-    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: #002f5f;
     height: 130px;
 }
@@ -90,7 +133,9 @@ a.logo {
 
 .footnote {
     text-align: left;
-    padding-top: 10px;}
+    padding-top: 10px;
+}
+
 .footnote b { font-size: 120%; }
 .footnote address { font-style: normal;}
 
