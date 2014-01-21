@@ -98,6 +98,10 @@ a.logo {
     height: 130px;
 }
 
+.navbar-text {
+    padding-left: 15px;
+}
+
 @media(max-width: 979px) {
     .navbar-fixed-top .navbar-inner {
         padding: 0px;
