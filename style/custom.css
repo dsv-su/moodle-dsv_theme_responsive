@@ -24,6 +24,10 @@ a.logo {
     margin-right: 20px;
 }
 
+.navbar .btn-navbar .icon-bar {
+    background-color: #002f5f;
+}
+
 .navbar .navbar-inner {
     border-color: #002f5f;
     box-shadow: none;
@@ -180,10 +184,6 @@ a.logo {
     #page-footer b, #page-footer br{ 
         display: none}
     }
-}
-
-.navbar .btn-navbar .icon-bar {
-    background-color: #002f5f;
 }
 
 
