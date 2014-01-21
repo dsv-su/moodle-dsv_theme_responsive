@@ -75,6 +75,9 @@ echo $OUTPUT->doctype() ?>
     <header id="page-header" class="clearfix">
         <div class="dsvlogo">
             <?php echo $html->heading; ?>
+            <div class="logo-text">
+              <a href="/">Department of Computer and Systems Sciences</a>
+            </div>
         </div>
         <div id="page-navbar" class="clearfix">
             <div class="breadcrumb-nav"><?php echo $OUTPUT->navbar(); ?></div>

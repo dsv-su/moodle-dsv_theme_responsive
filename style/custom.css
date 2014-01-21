@@ -9,6 +9,10 @@ a.logo {
     max-width: 730px;
 }
 
+.logo-text {
+    display: none;
+}
+
 .dir-rtl a.logo {
     background: url([[pix:theme|dsv-logo-en]]) no-repeat 100% 0;
     display: block;
@@ -68,6 +72,28 @@ a.logo {
     text-shadow: none;
 }
 
+#page-footer {
+    margin-top: 20px;
+    padding: 0 20px 0;
+    border-top: solid 1px #d2d7dc;  
+    color: #002f5f;
+    line-height: 20px;
+    text-align: left;
+    font-size: 86%;
+    padding-bottom: 10px;
+    background-color: #fff;
+}
+
+.dsvlogo {
+    /*margin:-20px;*/
+    margin-top: -20px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #002f5f;
+    height: 130px;
+}
+
 @media(max-width: 979px) {
     .navbar-fixed-top .navbar-inner {
         padding: 0px;
@@ -95,7 +121,7 @@ a.logo {
         margin: 0;
 
     }
-        .navbar-fixed-top .navbar-inner {
+    .navbar-fixed-top .navbar-inner {
         padding: 0px;
     }
     .navbar-fixed-bottom .navbar-inner {
@@ -108,36 +134,67 @@ a.logo {
     .navbar .btn-navbar {
         margin-right: 10px;
     }
+    a.logo {
+        max-width: 550px;
+        background-size: 550px 98px;
+        height: 98px;
+    }
+    .dsvlogo {
+        height: 98px;
+        max-height: 98px;
+    }
 }
 
-.dsvlogo {
-    /*margin:-20px;*/
-    margin-top: -20px;
-    margin-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+@media(max-width: 479px) {
+    .dsvlogo {
+        height: 55px !important;
+        max-height: 55px;
+    }
+}
+
+@media(max-width: 600px) {
+    .logo-text {
+        display: block;
+    }
+    a.logo{
+        display: none;
+    }
+    .logo-text a{
+        color: #FFF;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        text-decoration: none;
+        font-size: 1.4em;
+        white-space: normal;
+        line-height: 1.2;
+    }
+    .dsvlogo {
+        height: 33px;
+        max-height: 55px;
+    }
+    #page-footer {
+        background-color: #d3d3d3;
+        margin-left: -20px;
+        margin-right: -20px;
+        margin-bottom: 10px;
+    }
+    #page-footer b, #page-footer br{ 
+        display: none}
+    }
+}
+
+.navbar .btn-navbar .icon-bar {
     background-color: #002f5f;
-    height: 130px;
 }
 
-#page-footer {
-    margin-top: 20px;
-    padding: 0 20px 0;
-    border-top: solid 1px #d2d7dc;  
-    color: #002f5f;
-    line-height: 20px;
-    text-align: left;
-    font-size: 86%;
-    padding-bottom: 10px;
-}
 
+/*
 .footnote {
     text-align: left;
     padding-top: 10px;
 }
 
 .footnote b { font-size: 120%; }
-.footnote address { font-style: normal;}
-
+.footnote address { font-style: underline;}
+*/
 /* Custom CSS Settings
 -------------------------*/

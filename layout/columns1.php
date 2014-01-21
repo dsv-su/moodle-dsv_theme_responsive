@@ -53,11 +53,16 @@ echo $OUTPUT->doctype() ?>
 <div id="page" class="container-fluid">
 
     <header id="page-header" class="clearfix">
+        <div class="dsvlogo">
+            <?php echo $html->heading; ?>
+            <div class="logo-text">
+              <a href="/">Department of Computer and Systems Sciences</a>
+            </div>
+        </div>
         <div id="page-navbar" class="clearfix">
             <div class="breadcrumb-nav"><?php echo $OUTPUT->navbar(); ?></div>
             <nav class="breadcrumb-button"><?php echo $OUTPUT->page_heading_button(); ?></nav>
         </div>
-        <?php echo $html->heading; ?>
         <div id="course-header">
             <?php echo $OUTPUT->course_header(); ?>
         </div>
@@ -78,8 +83,8 @@ echo $OUTPUT->doctype() ?>
         <p class="helplink"><?php echo $OUTPUT->page_doc_link(); ?></p>
         <?php
         echo $html->footnote;
-        echo $OUTPUT->login_info();
-        echo $OUTPUT->home_link();
+        //echo $OUTPUT->login_info();
+        //echo $OUTPUT->home_link();
         echo $OUTPUT->standard_footer_html();
         ?>
     </footer>
