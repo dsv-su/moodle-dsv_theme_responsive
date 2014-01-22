@@ -166,6 +166,9 @@ h4 {
     padding-top: 10px;
 }
 
+.course-content ul.topics li.section .summary {
+    margin-left: 15px;
+}
 
 .course-content .section-summary .summarytext {
     padding-left: 15px;
@@ -174,7 +177,19 @@ h4 {
 
 .section .activity.modtype_label.label {
     padding-left: 0px;
-    margin-left: -20px;
+    margin-left: 0px;
+}
+
+.section .activity.modtype_label.label object {
+    width:100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.section .activity .editing_move {
+    left: 5px;
 }
 
 h3.sectionname {
@@ -185,7 +200,7 @@ h3.sectionname {
 .course-content ul.section {
     margin-bottom: 0px;
     padding-bottom: 5px;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 
 .course-content ul.weeks li.section, .course-content ul.topics li.section {
@@ -201,6 +216,20 @@ h3.sectionname {
 
 .course-content ul li.section.main {
     border-bottom: 1px solid #eee;
+}
+
+.course-content ul.weeks li.section .left, .course-content ul.topics li.section .left {
+    width: 20px;
+    padding-right: 15px;
+}
+
+.course-content ul.weeks li.section .right, .course-content ul.topics li.section .right {
+    width: 20px;
+    padding-left: 15px;
+}
+
+.mdl-right {
+    padding-right: 10px;
 }
 
 /* Custom CSS
