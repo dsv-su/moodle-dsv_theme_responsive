@@ -144,9 +144,21 @@ h4 {
 }
 
 .course-content .current {
-    /*background: #da5013;*/
     background: #e17e33;
+}
 
+.course-content h1, .course-content h2, .course-content h3 {
+    font-size: 140%;
+}
+
+h3.sectionname {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 140%;
+}
+
+.coursebox>.info>h3.coursename {
+    margin-bottom: 0px;
 }
 
 .course-content .current .left.side {
@@ -164,6 +176,10 @@ h4 {
 .path-course-view .section .summary {
     padding-left: 0px;
     padding-top: 10px;
+}
+
+.path-course-view .section .summary:empty {
+    display: none;
 }
 
 .course-content ul.topics li.section .summary {
@@ -192,11 +208,6 @@ h4 {
     left: 5px;
 }
 
-h3.sectionname {
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
 .course-content ul.section {
     margin-bottom: 0px;
     padding-bottom: 5px;
@@ -206,6 +217,10 @@ h3.sectionname {
 .course-content ul.weeks li.section, .course-content ul.topics li.section {
     margin-top: 0px;
     padding-bottom: 0px;
+}
+
+.course-content ul.topics li.section .content, .course-content ul.weeks li.section .content {
+    padding-bottom: 0.1em;
 }
 
 .course-content ul.topics li.section {
