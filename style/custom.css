@@ -248,7 +248,7 @@ h3.sectionname {
     display: block !important;
 }
 
-.no-overflow > p > span {
+span[id^='play.dsv.su.se'] { /* CSS3 IS THE SHIT */
     display: block;
     height: 0;
     padding-bottom: 56%;
@@ -256,11 +256,16 @@ h3.sectionname {
     width: 100%;
 }
 
-.section .activity.modtype_label.label object {
+span[id^='play.dsv.su.se'] > object {
     height: 100%;
     left: 0;
     position: absolute;
     top: 0;
+    width: 100%;
+}
+
+span[id^='play.dsv.su.se'] > object > video {
+    height: 100%;
     width: 100%;
 }
 
