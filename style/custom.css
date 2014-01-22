@@ -68,6 +68,67 @@ h4 {
 }
 
 
+/* Blocks
+-----------------------*/
+
+.block {
+    margin-bottom: 20px;
+    border: none;
+    padding-top: 0px;
+}
+
+.block a:link, .block a:visited, .block a:active {
+    color: #005B7F;
+    text-decoration: none;
+}
+
+.block a:hover {
+    text-decoration: underline;
+}
+
+.block .header {
+    /* border-top: 2px solid #da5013; */
+    border-top: 2px solid #e17e33;
+    background: #f7f6f1;
+    padding: 4px 5px 5px;
+}
+
+.block .title h2 {
+    color: #35251B;
+    font-weight: normal;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+/* My Courses block theming
+-----------------------*/
+
+.block_my_courses .welcome_area {
+    margin-bottom: 15px;
+}
+
+.block_my_courses .welcome_area .profilepicture {
+    display: inline-block;
+    float: none;
+}
+
+.block_my_courses .welcome_area .welcome_message {
+    display: inline-block;
+}
+.block_my_courses .activity_info {
+    margin-left: 8px;
+}
+
+.block_my_courses .activity_overview {
+    margin-bottom: 6px;
+}
+
+.block_my_courses .activity_overview .iconlarge {
+    margin-right: 5px;
+}
+
+
+
 /* Menu
 -------------------------*/
 
