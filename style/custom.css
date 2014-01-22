@@ -137,7 +137,57 @@ h4 {
 /* Course
 -------------------------*/
 
+.course-content .main {
+    background: #f7f5f1;
+    border: 1px solid #ddd
+}
 
+.course-content .current {
+    /*background: #da5013;*/
+    background: #e17e33;
+
+}
+
+.course-content .current .left.side {
+  color: #fff;
+}
+
+.course-content .main .content {
+    background: #fff;
+}
+
+.path-course-view .section .summary {
+    padding-left: 20px;
+}
+
+.section .activity.modtype_label.label {
+    padding-left: 0px;
+    margin-left: -25px;
+}
+
+h3.sectionname {
+    margin-top: 0px;
+}
+
+.course-content ul.section {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.course-content ul.weeks li.section, .course-content ul.topics li.section {
+    margin-top: 0px;
+    padding-bottom: 0px;
+}
+
+.course-content ul.topics li.section {
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin: 0 0 10px 0;
+}
+
+.course-content ul li.section.main {
+    border-bottom: 1px solid #eee;
+}
 
 /* Custom CSS
 -------------------------*/
