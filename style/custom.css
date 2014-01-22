@@ -358,7 +358,10 @@ a.logo {
     .navbar-fixed-bottom .navbar-inner {
         padding: 0px;
     }
-    .navbar {
+    .navbar-fixed-top {
+        position: fixed;
+        left: 0px;
+        top: 0px;
         margin-left: 0px;
         margin-right: 0px;
     }
@@ -384,14 +387,21 @@ a.logo {
     .navbar-fixed-bottom .navbar-inner {
         padding: 0px;
     }
-    .navbar {
-        margin-left: -20px;
-        margin-right: -20px;
+    .navbar-fixed-top {
+        position: fixed;
+        left: 0px;
+        top: 0px;
     }
     .navbar .btn-navbar {
         margin-right: 10px;
     }
+    .dsvlogo {
+        height: 113px;
+        padding-bottom: 15px;
+        /*min-height: 113px;*/
+    }
     a.logo {
+        margin-top: 15px;
         max-width: 550px;
         background-size: 550px 98px;
         height: 98px;
@@ -412,6 +422,7 @@ a.logo {
 @media(max-width: 600px) {
     .logo-text {
         display: block;
+        margin-top: 60px;
     }
     a.logo{
         display: none;
@@ -427,6 +438,7 @@ a.logo {
     .dsvlogo {
         height: 33px;
         max-height: 55px;
+        padding-bottom: 0px;
     }
     #page-footer {
         background-color: #d3d3d3;
