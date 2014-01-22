@@ -366,12 +366,16 @@ a.logo {
         margin-right: 0px;
     }
     .dsvlogo {
+        height: 150px;
         margin-left: -20px;
         margin-right: -20px;
     }
     .navbar .brand {
         padding-left: 0px;
         margin: 0;
+    }
+    a.logo {
+        margin-top: 20px;
     }
 }
 
