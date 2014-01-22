@@ -156,22 +156,35 @@ h4 {
     background: #fff;
 }
 
-.path-course-view .section .summary {
-    padding-left: 20px;
+.course-content .section-summary .section-title {
+    margin-top: 0px;
 }
 
+.path-course-view .section .summary {
+    padding-left: 0px;
+    padding-top: 10px;
+}
+
+/*
+.course-content .section-summary .summarytext {
+    padding-left: 15px;
+    padding-top: 0px;
+}
+*/
 .section .activity.modtype_label.label {
     padding-left: 0px;
-    margin-left: -25px;
+    margin-left: -20px;
 }
 
 h3.sectionname {
     margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .course-content ul.section {
     margin-bottom: 0px;
     padding-bottom: 0px;
+    margin-top: 10px;
 }
 
 .course-content ul.weeks li.section, .course-content ul.topics li.section {
