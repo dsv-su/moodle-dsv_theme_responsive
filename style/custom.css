@@ -245,7 +245,7 @@ h3.sectionname {
 }
 
 .mod-indent-outer > div > .contentwithoutlink {
-    display: block;
+    display: block !important;
 }
 
 .no-overflow > p > span {
