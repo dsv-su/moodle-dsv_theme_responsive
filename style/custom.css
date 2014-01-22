@@ -1,3 +1,83 @@
+/* Headers and links 
+-------------------------*/
+
+a:link {
+    color: #005b7f;
+    text-decoration: none;
+}
+a:active {
+    color: #005b7f;
+    text-decoration: underline;
+}
+a:visited {
+    color: #005b7f;
+    text-decoration: underline;
+}
+a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+h1 a:link, h1 a:active, h1 a:visited {
+    color: #005b7f;
+    text-decoration: none;
+}
+h1 a:hover {
+    color: #005b7f;
+    text-decoration: underline;
+}
+h2 a:link, h2 a:active, h2 a:visited {
+    color: #005b7f;
+    text-decoration: none;
+}
+h2 a:hover {
+    color: #005b7f;
+    text-decoration: underline;
+}
+h3 a:link, h3 a:active, h3 a:visited {
+    color: #005b7f;
+    text-decoration: none;
+}
+h3 a:hover {
+    color: #005b7f;
+    text-decoration: underline;
+}
+h4 a:link, h4 a:active, h4 a:visited {
+    color: #005b7f;
+    text-decoration: none;
+}
+h4 a:hover {
+    color: #005b7f;
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 230%;
+}
+
+h2 {
+    font-size: 160%;
+}
+
+h3 {
+    font-size: 140%;
+}
+
+h4 {
+    font-size: 120%;
+}
+
+
+/* Menu
+-------------------------*/
+
+
+
+/* Course
+-------------------------*/
+
+
+
 /* Custom CSS
 -------------------------*/
 a.logo {
@@ -189,16 +269,3 @@ a.logo {
         display: none}
     }
 }
-
-
-/*
-.footnote {
-    text-align: left;
-    padding-top: 10px;
-}
-
-.footnote b { font-size: 120%; }
-.footnote address { font-style: underline;}
-*/
-/* Custom CSS Settings
--------------------------*/
