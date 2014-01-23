@@ -101,34 +101,6 @@ h4 {
     margin: 0;
 }
 
-/* My Courses block theming
------------------------*/
-
-.block_my_courses .welcome_area {
-    margin-bottom: 15px;
-}
-
-.block_my_courses .welcome_area .profilepicture {
-    display: inline-block;
-    float: none;
-}
-
-.block_my_courses .welcome_area .welcome_message {
-    display: inline-block;
-}
-.block_my_courses .activity_info {
-    margin-left: 8px;
-}
-
-.block_my_courses .activity_overview {
-    margin-bottom: 6px;
-}
-
-.block_my_courses .activity_overview .iconlarge {
-    margin-right: 5px;
-}
-
-
 
 /* Menu
 -------------------------*/
