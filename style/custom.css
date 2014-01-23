@@ -403,6 +403,9 @@ a.logo {
 }
 
 @media(max-width: 767px) {
+    body {
+        font-size: 16px;
+    }
     .navbar .brand {
         padding-left: 20px;
         margin: 0;
@@ -447,6 +450,9 @@ a.logo {
 }
 
 @media(max-width: 600px) {
+    body {
+        font-size: 18px;
+    }
     .logo-text {
         display: block;
         margin-top: 60px;
