@@ -244,6 +244,9 @@ span[id^='play.dsv.su.se'] > object > video {
 
 /* Custom CSS
 -------------------------*/
+
+.navbar-inner 
+
 a.logo {
     background: url([[pix:theme|dsv-logo-en]]) no-repeat 0 0;
     display: block;
@@ -275,6 +278,8 @@ a.logo {
 .navbar .navbar-inner {
     border-color: #002f5f;
     box-shadow: none;
+    max-width: 1680px;
+    margin: 0 auto;
 }
 
 .navbar .container-fluid{
