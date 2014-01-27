@@ -414,6 +414,12 @@ a.logo {
     }
 }
 
+@media(max-width: 320px) {
+    #region-main>div {
+        font-size: 14px !important;
+    }
+}
+
 @media(max-width: 479px) {
     .dsvlogo {
         height: 55px !important;
@@ -452,6 +458,35 @@ a.logo {
         margin-bottom: 10px;
     }
     #page-footer b, #page-footer br{ 
-        display: none}
+        display: none;
     }
+}
+
+/* Fixing iOS and Android devices problems with non-showing dropdown menu
+-------------------------*/
+@media(max-width: 480px) {
+    .nav-collapse, .nav-collapse.collapse {
+        -webkit-transform: none; /* Safari and Chrome */
+        -moz-transform: none; /* Firefox */
+        -ms-transform: none; /* IE 9 */
+        -o-transform: none; /* Opera */
+        transform: none;
+    }
+}
+
+/* Fixing forum discussion control buttons
+-------------------------*/
+#page-mod-forum-discuss .discussioncontrols .discussioncontrol {
+    float: left;
+    width: auto;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+.discussioncontrol.nullcontrol {
+    display: none;
+}
+
+#page-mod-forum-discuss .discussioncontrol.movediscussion {
+    text-align: left;
 }
