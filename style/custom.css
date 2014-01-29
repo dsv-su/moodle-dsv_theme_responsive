@@ -101,6 +101,18 @@ h4 {
     margin: 0;
 }
 
+/* This fixes the "Manage my private files"-button being too wide */
+.block_private_files.block form > div {
+    margin: 0;
+    width: 100%;
+}
+
+.block_private_files.block form > div > input {
+    margin: 5px 0 0 0;
+    white-space: normal;
+    width: auto;
+}
+
 
 /* Menu
 -------------------------*/
@@ -109,6 +121,10 @@ h4 {
 
 /* Course
 -------------------------*/
+
+hr {
+    width: 100% !important; /* Fix static widths of hr elements */
+}
 
 .course-content .main {
     background: #f7f5f1;
