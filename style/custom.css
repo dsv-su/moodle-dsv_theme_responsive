@@ -101,30 +101,44 @@ h4 {
     margin: 0;
 }
 
-/* This fixes the "Manage my private files"-button being too wide */
-.block_private_files.block form > div {
-    margin: 0;
-    width: 100%;
-}
 
-.block_private_files.block form > div > input {
-    margin: 5px 0 0 0;
-    white-space: normal;
-    width: auto;
-}
-
-
-/* Menu
+/* Fixing User Profile problem (MDL-43030)
 -------------------------*/
+.userprofile dl.list {
+    margin-left: 110px;
+    margin-bottom: 0px; 
+    padding-top: 10px; 
+    padding-bottom: 0px;
+}
 
+.userprofile dl.list dt {
+    text-align: left;
+    clear: none;
+    width: 130px;
+}
+
+.userprofile dl.list dd {
+    margin-left: 20px;
+}
+
+.userprofile .profilepicture {
+    float: left;
+    margin-right: 0px;
+}
+
+.path-user .description {
+    padding-bottom: 0px; 
+    margin-bottom: 0px; 
+    border: 0px;
+    margin-left: 110px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 80%;
+}
 
 
 /* Course
 -------------------------*/
-
-hr {
-    width: 100% !important; /* Fix static widths of hr elements */
-}
 
 .course-content .main {
     background: #f7f5f1;
@@ -227,7 +241,9 @@ h3.sectionname {
     padding-right: 10px;
 }
 
-/* Course video files from the play system needs some massaging... <3 */
+
+/* Course video files from the play system needs some massaging... <3 
+--------------------------------------------------------------------*/
 .section>.activity .mod-indent-outer {
     width: 94%;
 }
@@ -255,6 +271,12 @@ span[id^='play.dsv.su.se'] > object {
 span[id^='play.dsv.su.se'] > object > video {
     height: 100%;
     width: 100%;
+}
+
+/* Fix textarea to be not resizable any wider
+-------------------------*/
+textarea {
+    resize: vertical;
 }
 
 
