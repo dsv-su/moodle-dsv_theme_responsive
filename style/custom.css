@@ -512,6 +512,10 @@ a.logo {
         -o-transform: none; /* Opera */
         transform: none;
     }
+    .path-mod-forum .forumheaderlist .picture {
+        display: table-cell;
+        width: 5%;
+    }
 }
 
 /* Fixing forum discussion control buttons
@@ -529,4 +533,14 @@ a.logo {
 
 #page-mod-forum-discuss .discussioncontrol.movediscussion {
     text-align: left;
+}
+
+.path-mod-forum .forumheaderlist .replies {
+    text-align: center;
+
+}
+
+.forumpost.unread .row.header {
+    background-color: #f1b56b;
+    padding-bottom: 2px;
 }
