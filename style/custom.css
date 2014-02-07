@@ -101,6 +101,19 @@ h4 {
     margin: 0;
 }
 
+/* Fix for "My private files" buttons stretching outside of their container */
+@media(max-width: 979px) {
+    .block_private_files.block form > div {
+        margin: 0;
+        width: 100%;
+    }
+
+    .block_private_files.block form > div > input {
+        margin: 5px 0 0 0;
+        white-space: normal;
+        width: auto;
+    }
+}
 
 /* Fixing User Profile problem (MDL-43030)
 -------------------------*/
@@ -270,6 +283,12 @@ span[id^='play.dsv.su.se'] > object {
 
 span[id^='play.dsv.su.se'] > object > video {
     height: 100%;
+    width: 100%;
+}
+
+/* Minor fix (TODO: Clean dis shizz up..) for YouTube embeds */
+iframe {
+    height: 250px;
     width: 100%;
 }
 
