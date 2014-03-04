@@ -549,3 +549,9 @@ a.logo {
     background-color: #f4c78f;
     padding-bottom: 2px;
 }
+
+/* Fixing ordered lists numbering being shifted out of the frame
+-------------------------*/
+#region-main ol {
+    padding-left: 15px;
+}
