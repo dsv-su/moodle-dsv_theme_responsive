@@ -410,7 +410,12 @@ a.logo {
     padding-left: 15px;
 }
 
+body {
+    padding-top: 50px;
+}
+
 @media(max-width: 979px) {
+
     .navbar-fixed-top .navbar-inner {
         padding: 0px;
     }
@@ -573,4 +578,74 @@ a.logo {
 -------------------------*/
 #region-main ol {
     padding-left: 15px;
+}
+
+/* Altering grading view to get more space for the usability sake
+-------------------------*/
+div.usersummary {
+    padding-bottom: 1em;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #ddd;
+}
+
+div.submissionstatustable {
+    margin-bottom: 1em;
+    float: left;
+    padding-right: 50px;
+}
+
+.gradingsummary + .submissionstatustable {
+    float: none;
+    margin-right: 0;
+}
+
+div.submissionstatustable + h3 {
+    display: none;
+}
+
+.gradingform .fitemtitle {
+    width: 30% !important;
+    float: left;
+    display: inline-block;
+    padding-right: 15px;
+    padding-top: 5px;
+    margin-top: 0px !important;
+}
+
+.gradingform .felement {
+    width: auto !important;
+    margin-left: 0px !important;
+}
+
+.gradingform .fitem {
+    margin-bottom: 5px;
+}
+
+#fitem_id_assignfeedbackcomments_editor > .fitemtitle {
+    width: auto !important;
+}
+
+#fitem_id_assignfeedbackcomments_editor > .feditor {
+    margin-left: 20px !important;
+    padding-bottom: 20px;
+}
+
+.gradingform {
+    padding-left: 0px;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+#fgroup_id_buttonar > .felement {
+    margin-left: 20px;
+    text-align: center;
+}
+
+#fgroup_id_navar > .felement {
+    margin-left: 20px;
+    text-align: center;
+}
+
+#fgroup_id_buttonar {
+    padding: 19px 0px 20px;
 }
