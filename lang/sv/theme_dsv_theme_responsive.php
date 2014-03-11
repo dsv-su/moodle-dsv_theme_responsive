@@ -50,7 +50,8 @@ $string['configtitle'] = 'DSV Theme Responsive';
 $string['customcss'] = 'Custom CSS';
 $string['customcssdesc'] = 'Whatever CSS rules you add to this textarea will be reflected in every page, making for easier customization of this theme.';
 
-$string['footer'] = '<b>Department of Computer and Systems Sciences, DSV</b><br>Stockholm University, DSV, Forum 100, SE-164 40 Kista, Sweden | Phone: <a href="callto:+468162000">+46 8 16 20 00</a>';
+$string['footer'] = '<b>Institutionen för data- och systemvetenskap, DSV</b><br>Stockholms universitet, DSV, Forum 100, 164 40 Kista | Telefon: <a href="callto:+468162000">08-16 20 00</a>';
+
 $string['footnote'] = 'Footnote';
 $string['footnotedesc'] = 'Whatever you add to this textarea will be displayed in the footer throughout your Moodle site.';
 
@@ -66,4 +67,5 @@ $string['pluginname'] = 'DSV Theme Responsive';
 
 $string['region-side-post'] = 'Right';
 $string['region-side-pre'] = 'Left';
+
 

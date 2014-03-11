@@ -124,7 +124,7 @@ function theme_dsv_theme_responsive_set_customcss($css, $customcss) {
  *      - footnote HTML to use as a footnote. By default ''.
  */
 function theme_dsv_theme_responsive_get_html_for_settings(renderer_base $output, moodle_page $page) {
-    global $CFG;
+    global $CFG, $OUTPUT;
     $return = new stdClass;
 
     $return->navbarclass = '';
@@ -132,7 +132,19 @@ function theme_dsv_theme_responsive_get_html_for_settings(renderer_base $output,
         $return->navbarclass .= ' navbar-inverse';
     }
 
-    $return->heading = html_writer::link($CFG->wwwroot, '', array('title' => get_string('home'), 'class' => 'logo'));
+    if (current_language()<>'sv') {
+        $current_language='en';
+
+    } else {
+        $current_language='sv';
+    }
+
+    $return->heading = html_writer::link($CFG->wwwroot, '', array(
+        'title' => get_string('home'),
+        'class' => 'logo',
+        'style' => 'background: 
+            url('.$OUTPUT->pix_url("dsv-logo-". $current_language, "theme").') no-repeat 0 0'
+        ));
 
     $return->footnote = '';
     if (!empty($page->theme->settings->footnote)) {
