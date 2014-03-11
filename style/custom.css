@@ -94,12 +94,13 @@ h4 {
     padding: 4px 5px 5px;
 }
 
+/*
 .block .title h2 {
     color: #35251B;
     font-weight: normal;
     font-size: 1.2em;
     margin: 0;
-}
+}*/
 
 /* Fix for "My private files" buttons stretching outside of their container */
 @media(max-width: 979px) {
