@@ -593,7 +593,7 @@ div.usersummary {
     border-bottom: 1px solid #ddd;
 }
 
-div.submissionstatustable {
+div.usersummary + div.submissionstatustable {
     margin-bottom: 1em;
     float: left;
     padding-right: 50px;
