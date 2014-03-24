@@ -119,9 +119,7 @@ h4 {
 /* Fixing User Profile problem (MDL-43030)
 -------------------------*/
 .userprofile dl.list {
-    margin-left: 110px;
-    margin-bottom: 0px; 
-    padding-top: 10px; 
+    margin: 0px 0px 0px 110px;
     padding-bottom: 0px;
 }
 
@@ -141,12 +139,11 @@ h4 {
 }
 
 .path-user .description {
-    padding-bottom: 0px; 
+    padding: 0 0 0 0; 
     margin-bottom: 0px; 
     border: 0px;
     margin-left: 110px;
-    border: 1px solid #ddd;
-    padding: 10px;
+  /*  border: 1px solid #ddd;*/
     width: 80%;
 }
 
