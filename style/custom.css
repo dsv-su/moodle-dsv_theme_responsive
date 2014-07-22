@@ -650,3 +650,7 @@ div.submissionstatustable + h3 {
 #fgroup_id_buttonar {
     padding: 19px 0px 20px;
 }
+
+html {
+    -webkit-font-smoothing: antialiased;
+}
