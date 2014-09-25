@@ -143,7 +143,7 @@ function theme_dsv_theme_responsive_get_html_for_settings(renderer_base $output,
         'title' => get_string('home'),
         'class' => 'logo',
         'style' => 'background: 
-            url('.$OUTPUT->pix_url("dsv-logo-". $current_language, "theme").') no-repeat 0 0'
+            url('.$OUTPUT->pix_url("natgeo-logo-". $current_language, "theme").') no-repeat 0 0'
         ));
 
     $return->footnote = '';
