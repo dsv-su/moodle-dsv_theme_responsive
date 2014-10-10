@@ -382,16 +382,21 @@ a.logo {
     margin-top: 20px;
     padding: 0 20px 0;
     border-top: solid 1px #d2d7dc;  
-    color: #002f5f;
+    color: rgb(0, 47, 95);
     line-height: 20px;
     text-align: left;
-    font-size: 86%;
+    font-size: 10px;
     padding-bottom: 10px;
     background-color: #fff;
+    font-family: Verdana;
 }
 
 #page-footer a {
     color: #002f5f;
+}
+
+#page-footer b {
+    font-size: 12px;
 }
 
 .footnote.text-center {
