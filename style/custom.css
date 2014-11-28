@@ -116,6 +116,38 @@ h4 {
     }
 }
 
+.usermenu .menubar a{
+    color: #fff !important;
+}
+
+.usermenu .menubar a:hover {
+    color: #005b7f !important;
+}
+
+.usermenu .show a {
+    color: #333 !important;
+}
+
+.usermenu .textmenu:hover{
+    background-color: #fff;    
+}
+
+.usermenu .login {
+    color: #fff;
+}
+
+.usermenu .login>a {
+    color: #e17e33 !important;
+}
+
+.usermenu .actionmenu a{
+    color: #005b7f !important;
+}
+
+.usermenu .menu .menu-action:hover{
+    color: #fff !important;
+}
+
 /* Fixing User Profile problem (MDL-43030)
 -------------------------*/
 .userprofile dl.list {
@@ -145,6 +177,10 @@ h4 {
     margin-left: 110px;
   /*  border: 1px solid #ddd;*/
     width: 80%;
+}
+
+.userprofile dl.list dd:after {
+    clear: none;
 }
 
 
