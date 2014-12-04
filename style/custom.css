@@ -515,13 +515,12 @@ body {
         /*min-height: 113px;*/
     }
     a.logo {
-        margin-top: 15px;
+        margin-top: -20px;
         max-width: 550px;
         background-size: 550px 98px;
-        height: 98px;
+        /*height: 130px;*/
     }
     .dsvlogo {
-        height: 98px;
         max-height: 98px;
     }
 }
