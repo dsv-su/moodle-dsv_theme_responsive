@@ -42,12 +42,36 @@ function theme_dsv_theme_responsive_process_css($css, $theme) {
     // Set the background image for the logo.
     $logo = $theme->setting_file_url('logo', 'logo');
     $css = theme_dsv_theme_responsive_set_logo($css, $logo);
+    global $CFG;
 
     // Set custom CSS.
     if (!empty($theme->settings->customcss)) {
         $customcss = $theme->settings->customcss;
     } else {
-        $customcss = null;
+        $customcss = "
+        .signuppanel .subcontent {
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .loginbox {
+            left: 10px;
+            right: 10px;
+        }
+
+        .loginbox .expand {
+            color: #005b7f;
+        }
+
+        .loginbox .directlink:hover, .expand:hover, .expand:visited{
+            text-decoration: none;
+        }
+
+        .loginbox .directlink:hover, .expand:hover {
+            color: #e17e33;
+            cursor: pointer;
+        }
+        ";
     }
     $css = theme_dsv_theme_responsive_set_customcss($css, $customcss);
 

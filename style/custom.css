@@ -694,3 +694,25 @@ div.submissionstatustable + h3 {
 html {
     -webkit-font-smoothing: antialiased;
 }
+
+        .loginbox .expand .collapsed {
+            cursor: pointer;
+            background-image: url([[pix:theme|collapsed]]);
+            background-position: 2px 50%;
+            background-repeat: no-repeat;
+            margin: auto;
+            width: 350px;
+        }
+
+        .loginbox .expand .expanded {
+            cursor: pointer;
+            background-image: url([[pix:theme|expanded]]);
+            background-position: 2px 50%;
+            background-repeat: no-repeat;
+            margin: auto;
+            width: 350px;
+        }
+
+/* Custom CSS Settings
+-------------------------*/
+[[setting:customcss]]
