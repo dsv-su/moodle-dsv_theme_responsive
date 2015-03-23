@@ -659,7 +659,7 @@ div.submissionstatustable + h3 {
     margin-left: 0px !important;
 }
 
-.gradingform .felement input {
+.gradingform .felement #id_grade {
     width: 100px !important;
 }
 
