@@ -667,6 +667,11 @@ div.submissionstatustable + h3 {
     margin-bottom: 5px;
 }
 
+.gradingform .feditor,  
+.gradingform .ffilemanager {
+    padding-top: 30px;
+}
+
 #fitem_id_assignfeedbackcomments_editor > .fitemtitle {
     width: auto !important;
 }
