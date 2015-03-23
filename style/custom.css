@@ -646,12 +646,16 @@ div.submissionstatustable + h3 {
 }
 
 .gradingform .fitemtitle {
-    width: 70px !important;
+    width: 120px !important;
     float: left;
     display: inline-block;
     padding-right: 15px;
     padding-top: 5px;
     margin-top: 0px !important;
+}
+
+.gradingform .fitem_f .fitemtitle {
+   width: 50px !important;
 }
 
 .gradingform .felement {
