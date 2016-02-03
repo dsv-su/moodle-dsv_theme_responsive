@@ -182,6 +182,11 @@ h4 {
     clear: none;
 }
 
+/* Fixing Messaging interface so it does not go 100% wide
+-------------------------*/
+.message .contactselector {
+       max-width: 300px;
+}
 
 /* Course
 -------------------------*/
