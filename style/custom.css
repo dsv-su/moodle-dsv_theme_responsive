@@ -5,6 +5,12 @@ a:link {
     color: #005b7f;
     text-decoration: none;
 }
+
+/* Fix primary buttons so they don't become blue fonted */
+.btn-primary {
+    color: #fff !important;
+}
+
 a:active {
     color: #005b7f;
     text-decoration: underline;
