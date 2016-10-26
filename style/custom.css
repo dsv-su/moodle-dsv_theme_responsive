@@ -633,7 +633,10 @@ body {
 }
 
 /* Altering grading view to get more space for the usability sake
+TO BE REMOVED AFTER WE CONFIRM IT WORKS.
 -------------------------*/
+
+/**
 div.usersummary {
     padding-bottom: 1em;
     margin-bottom: 0px;
@@ -699,6 +702,27 @@ div.submissionstatustable + h3 {
 
 #fgroup_id_buttonar {
     padding: 19px 0px 20px;
+}
+**/
+
+.path-mod-assign [data-region="grade-panel"] .mform .fitem.fitem_fselect {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.path-mod-assign #page-content [data-region="grade-panel"] .mform:not(.unresponsive) .fitem.fitem_fselect .fitemtitle {
+        padding: 6px 10px 3px;
+    box-sizing: border-box;
+}
+
+.path-mod-assign #page-content [data-region="grade-panel"] .mform:not(.unresponsive) .fcontainer .fitem.fitem_fselect .felement {
+        padding: 6px 10px 10px;
+    box-sizing: border-box;
+}
+
+.path-mod-assign #page-content .mform:not(.unresponsive) #fitem_id_grade.fitem .felement select {
+    margin-bottom: 0px;
 }
 
 html {
