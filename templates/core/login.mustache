@@ -119,12 +119,16 @@
         {{/canloginasguest}}
 
     </div>
+    <div class="stork">
+        <a class="expand"><div><h2 class ="collapsed">Log in with STORK 2.0</h2></div></a>
+            <div class="subcontent">{{{instructions}}}</div>
+    </div>
 
     {{#hasinstructions}}
         <div class="signuppanel">
             <a class="expand"><div><h2 class ="collapsed">Create an account</h2></div></a>
             <div class="subcontent">
-                {{{instructions}}}
+                {{#str}}loginsteps{{/str}}
                 {{#cansignup}}
                     <div class="signupform">
                         <form action="{{signupurl}}" method="get" id="signup">
