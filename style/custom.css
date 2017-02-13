@@ -6,9 +6,13 @@ a:link {
     text-decoration: none;
 }
 
-/* Fix primary buttons so they don't become blue fonted */
+/* Fix primary and confirmation buttons so they are not wrongly fonted */
 .btn-primary {
     color: #fff !important;
+}
+
+.confirmation-buttons .btn-primary {
+    color: #333 !important;
 }
 
 a:active {
@@ -100,28 +104,8 @@ h4 {
     padding: 4px 5px 5px;
 }
 
-/*
-.block .title h2 {
-    color: #35251B;
-    font-weight: normal;
-    font-size: 1.2em;
-    margin: 0;
-}*/
-
-/* Fix for "My private files" buttons stretching outside of their container */
-@media(max-width: 979px) {
-    .block_private_files.block form > div {
-        margin: 0;
-        width: 100%;
-    }
-
-    .block_private_files.block form > div > input {
-        margin: 5px 0 0 0;
-        white-space: normal;
-        width: auto;
-    }
-}
-
+/* Fixing User menu colours
+-------------------------*/
 .usermenu .menubar a{
     color: #fff !important;
 }
@@ -154,8 +138,9 @@ h4 {
     color: #fff !important;
 }
 
+/*TO REMOVE*/
 /* Fixing User Profile problem (MDL-43030)
--------------------------*/
+-------------------------
 .userprofile dl.list {
     margin: 0px 0px 0px 110px;
     padding-bottom: 0px;
@@ -180,19 +165,13 @@ h4 {
     padding: 0 0 0 0; 
     margin-bottom: 0px; 
     border: 0px;
-  /*  border: 1px solid #ddd;*/
     width: 80%;
 }
 
 .userprofile dl.list dd:after {
     clear: none;
 }
-
-/* Fixing Messaging interface so it does not go 100% wide
--------------------------*/
-.message .contactselector {
-       max-width: 300px;
-}
+*/
 
 /* Course
 -------------------------*/
@@ -599,8 +578,9 @@ body {
     }
 }
 
+/*TO REMOVE*/
 /* Fixing forum discussion control buttons
--------------------------*/
+-------------------------
 #page-mod-forum-discuss .discussioncontrols .discussioncontrol {
     float: left;
     width: auto;
@@ -625,86 +605,17 @@ body {
     background-color: #f4c78f;
     padding-bottom: 2px;
 }
+*/
 
+/* TO REMOVE */
 /* Fixing ordered lists numbering being shifted out of the frame
--------------------------*/
+-------------------------
 #region-main ol {
     padding-left: 15px;
-}
+}*/
 
-/* Altering grading view to get more space for the usability sake
-TO BE REMOVED AFTER WE CONFIRM IT WORKS.
+/* Fix grader interface: style grade row with white background and gray border;
 -------------------------*/
-
-/**
-div.usersummary {
-    padding-bottom: 1em;
-    margin-bottom: 0px;
-    border-bottom: 1px solid #ddd;
-}
-
-div.usersummary + div.submissionstatustable {
-    margin-bottom: 1em;
-    float: left;
-    padding-right: 50px;
-}
-
-.gradingsummary + .submissionstatustable {
-    float: none;
-    margin-right: 0;
-}
-
-div.submissionstatustable + h3 {
-    display: none;
-}
-
-.gradingform .fitemtitle {
-    width: 30% !important;
-    float: left;
-    display: inline-block;
-    padding-right: 15px;
-    padding-top: 5px;
-    margin-top: 0px !important;
-}
-
-.gradingform .felement {
-    width: auto !important;
-    margin-left: 0px !important;
-}
-
-.gradingform .fitem {
-    margin-bottom: 5px;
-}
-
-#fitem_id_assignfeedbackcomments_editor > .fitemtitle {
-    width: auto !important;
-}
-
-#fitem_id_assignfeedbackcomments_editor > .feditor {
-    padding-bottom: 20px;
-}
-
-.gradingform {
-    padding-left: 0px;
-    display: inline-block;
-    padding-top: 10px;
-}
-
-#fgroup_id_buttonar > .felement {
-    margin-left: 20px;
-    text-align: center;
-}
-
-#fgroup_id_navar > .felement {
-    margin-left: 20px;
-    text-align: center;
-}
-
-#fgroup_id_buttonar {
-    padding: 19px 0px 20px;
-}
-**/
-
 .path-mod-assign [data-region="grade-panel"] .mform .fitem.fitem_fselect {
     background-color: #fff;
     border: 1px solid #ddd;
@@ -729,23 +640,25 @@ html {
     -webkit-font-smoothing: antialiased;
 }
 
-        .loginbox .expand .collapsed {
-            cursor: pointer;
-            background-image: url([[pix:theme|collapsed]]);
-            background-position: 2px 50%;
-            background-repeat: no-repeat;
-            margin: auto;
-            width: 350px;
-        }
+/* Fix login page for musctache template;
+-------------------------*/
+.loginbox .expand .collapsed {
+    cursor: pointer;
+    background-image: url([[pix:theme|collapsed]]);
+    background-position: 2px 50%;
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 350px;
+}
 
-        .loginbox .expand .expanded {
-            cursor: pointer;
-            background-image: url([[pix:theme|expanded]]);
-            background-position: 2px 50%;
-            background-repeat: no-repeat;
-            margin: auto;
-            width: 350px;
-        }
+.loginbox .expand .expanded {
+    cursor: pointer;
+    background-image: url([[pix:theme|expanded]]);
+    background-position: 2px 50%;
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 350px;
+}
 
 /* Custom CSS Settings
 -------------------------*/
