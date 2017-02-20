@@ -371,6 +371,10 @@ a.logo {
     color: #333;
 }
 
+.messages a {
+    color: inherit;
+}
+
 .navbar .navbar-text{
     background-color: #002f5f;
     /*border-bottom: 5px solid #DA5013;*/
