@@ -367,6 +367,10 @@ a.logo {
     text-shadow: none;
 }
 
+#nav-message-popover-container, #nav-notification-popover-container {
+    color: #333;
+}
+
 .navbar .navbar-text{
     background-color: #002f5f;
     /*border-bottom: 5px solid #DA5013;*/
@@ -658,6 +662,12 @@ html {
     background-repeat: no-repeat;
     margin: auto;
     width: 350px;
+}
+
+/* Fix to workaround display of rendered multimedia playesr
+-------------------------*/
+.mediaplugin {
+    width: 100% !important;
 }
 
 /* Custom CSS Settings
