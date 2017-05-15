@@ -167,7 +167,7 @@ function theme_dsv_theme_responsive_get_html_for_settings(renderer_base $output,
         'title' => get_string('home'),
         'class' => 'logo',
         'style' => 'background: 
-            url('.$OUTPUT->pix_url("open_courseware", "theme").') no-repeat 0 0'
+            url('.$OUTPUT->image_url("open_courseware", "theme").') no-repeat 0 0'
         ));
 
     $return->footnote = '';
