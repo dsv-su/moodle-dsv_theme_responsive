@@ -8,13 +8,22 @@ a:link {
 
 /* Fix primary and confirmation buttons so they are not wrongly fonted */
 .btn-primary {
+    background-color: #0038a8 !important;
     color: #fff !important;
 }
+.close-button>.btn-primary {
+    color: #333 !important;
+    background-color: rgb(245, 245, 245) !important;
+}
+.close-button>.btn-primary:hover {
+    background-color: #e6e6e6 !important;
+}
 
+/*
 .confirmation-buttons .btn-primary {
     color: #333 !important;
 }
-
+*/
 a:active {
     color: #005b7f;
     text-decoration: underline;
@@ -672,6 +681,11 @@ html {
 -------------------------*/
 .mediaplugin {
     width: 100% !important;
+}
+
+/* Fix icons in navigation blocks so they're indented properly */
+.block_tree img.icon {
+    padding-right: 0px;
 }
 
 /* Custom CSS Settings
