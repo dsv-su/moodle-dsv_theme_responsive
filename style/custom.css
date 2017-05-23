@@ -11,10 +11,12 @@ a:link {
     background-color: #0038a8 !important;
     color: #fff !important;
 }
+.confirmation-buttons>.btn-primary,
 .close-button>.btn-primary {
     color: #333 !important;
     background-color: rgb(245, 245, 245) !important;
 }
+.confirmation-buttons>.btn-primary:hover,
 .close-button>.btn-primary:hover {
     background-color: #e6e6e6 !important;
 }
