@@ -96,7 +96,7 @@ h4 {
     margin-bottom: 20px;
     border: none;
     padding-top: 0px;
-    background-color: #fff;
+    background-color: #f5f5f5;
 }
 
 .block a:link, .block a:visited, .block a:active {
@@ -111,8 +111,12 @@ h4 {
 .block .header {
     /* border-top: 2px solid #da5013; */
     border-top: 2px solid #e17e33;
-    background: #f7f6f1;
+    background: #f5f5f5;
     padding: 4px 5px 5px;
+}
+
+#block-region-content .block {
+    background-color: #fff;
 }
 
 /* Fixing User menu colours
@@ -187,10 +191,10 @@ h4 {
 /* Course
 -------------------------*/
 
-.course-content .main {
+/*.course-content .main {
     background: #f7f5f1;
     border: 1px solid #ddd
-}
+}*/
 
 .course-content .current {
     background: #e17e33;
@@ -288,6 +292,31 @@ h3.sectionname {
     padding-right: 10px;
 }
 
+/* Flex sections format border and current topic adjustment */
+.format-flexsections .course-content ul.flexsections-level-1>li.section.main {
+    border: none;
+    border-top: 2px solid #ddd;
+}
+
+.format-flexsections .course-content li.current {
+    margin-left: -10px !important;
+    margin-right: -10px !important;
+}
+
+.format-flexsections .course-content li.current>.content {
+    margin-left: 10px;
+    padding-left: 10px;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+.flexsections-level-2 h3 {
+    font-size: 130%;
+}
+
+.flexsections-level-3 h3 {
+    font-size: 120%;
+}
 
 /* Course video files from the play system needs some massaging... <3 
 --------------------------------------------------------------------*/
