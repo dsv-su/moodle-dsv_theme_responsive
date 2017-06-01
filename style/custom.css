@@ -293,8 +293,14 @@ h3.sectionname {
 }
 
 /* Flex sections format border and current topic adjustment */
+.format-flexsections .course-content ul.flexsections img.activityicon {
+    margin-right: 6px;
+}
+
 .format-flexsections .course-content ul.flexsections-level-1>li.section.main {
     border: none;
+    margin-top: 12px;
+    padding-top: 12px;
     border-top: 2px solid #ddd;
 }
 
@@ -310,12 +316,20 @@ h3.sectionname {
     padding-right: 10px;
 }
 
-.flexsections-level-2 h3 {
-    font-size: 130%;
+.flexsections h3.sectionname {
+    line-height: 30px;
 }
 
-.flexsections-level-3 h3 {
+.flexsections-level-2 h3.sectionname {
     font-size: 120%;
+}
+
+.flexsections-level-3 h3.sectionname {
+    font-size: 110%;
+}
+
+.flexsections-level-4 h3.sectionname {
+    font-size: 110%;
 }
 
 /* Course video files from the play system needs some massaging... <3 
