@@ -677,12 +677,6 @@ html {
     width: 350px;
 }
 
-/* Fix to workaround display of rendered multimedia playesr
--------------------------*/
-.mediaplugin {
-    width: 100% !important;
-}
-
 /* Fix icons in navigation blocks so they're indented properly */
 .block_tree img.icon {
     padding-right: 0px;
