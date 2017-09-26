@@ -81,7 +81,7 @@ echo $OUTPUT->doctype() ?>
         <div class="dsvlogo">
             <?php echo $html->heading; ?>
             <div class="logo-text">
-              <a href="/">Department of Computer and Systems Sciences</a>
+              <a href="/">Department of Physical Geography</a>
             </div>
         </div>
         <?php } ?>
