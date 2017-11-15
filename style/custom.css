@@ -665,7 +665,7 @@ html {
     background-position: 2px 50%;
     background-repeat: no-repeat;
     margin: auto;
-    width: 350px;
+    max-width: 500px;
 }
 
 .loginbox .expand .expanded {
@@ -674,7 +674,21 @@ html {
     background-position: 2px 50%;
     background-repeat: no-repeat;
     margin: auto;
-    width: 350px;
+    max-width: 500px;
+}
+
+.loginbox .noarrow {
+    background-image: none !important;
+}
+
+.loginbox p {
+    margin: auto;
+    max-width: 400px;
+}
+
+.loginbox .subcontent .create {
+    text-align: left;
+    max-width: 400px;
 }
 
 /* Fix icons in navigation blocks so they're indented properly */
