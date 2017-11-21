@@ -1,12 +1,13 @@
 /* Headers and links 
 -------------------------*/
 
-a:link {
+a:link:not(.btn) {
     color: #005b7f;
     text-decoration: none;
 }
 
 /* Fix primary and confirmation buttons so they are not wrongly fonted */
+/*
 .btn-primary {
     background-color: #0038a8 !important;
     color: #fff !important;
@@ -18,23 +19,31 @@ a:link {
 .close-button>.btn-primary:hover {
     background-color: #e6e6e6 !important;
 }
-
+*/
 /*
 .confirmation-buttons .btn-primary {
     color: #333 !important;
 }
 */
-a:active {
+
+a:active:not(.btn) {
     color: #005b7f;
     text-decoration: underline;
 }
-a:visited {
+a:visited:not(.btn) {
     color: #005b7f;
     text-decoration: underline;
 }
-a:hover {
+a:hover:not(.btn) {
     color: #000000;
     text-decoration: underline;
+}
+
+a:link.brand,
+a:visited.brand,
+a:active.brand {
+    text-shadow: none;
+    color: #ffffff;
 }
 
 h1 a:link, h1 a:active, h1 a:visited {
@@ -399,23 +408,18 @@ a.logo {
 }
 
 .navbar .nav>li>a{
-    background-color: #002f5f;
+    background-color: #002f5f !important;
     color: #fff;
     text-shadow: none;
 }
 
 .navbar .nav>li>a:hover{
-    background-color: #fff;
+    background-color: #fff !important;
     color: #002f5f;
     text-shadow: none;
 }
 
 .navbar .nav>li{
-    color: #fff;
-    text-shadow: none;
-}
-
-.navbar .brand {
     color: #fff;
     text-shadow: none;
 }
