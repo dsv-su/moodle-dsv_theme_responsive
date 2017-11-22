@@ -48,6 +48,15 @@ a:active.brand {
     color: #ffffff;
 }
 
+a.label-info,
+a.badge-info {
+  color: #fff;
+}
+a.label-info[href],
+a.badge-info[href] {
+  color: #fff;
+}
+
 h1 a:link, h1 a:active, h1 a:visited {
     color: #005b7f;
     text-decoration: none;
