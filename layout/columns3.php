@@ -94,10 +94,11 @@ echo $OUTPUT->doctype() ?>
     <div id="page-content" class="row-fluid">
         <div id="region-main-box" class="<?php echo $regionmainbox; ?>">
             <div class="row-fluid">
-                <section id="region-main" class="span8 pull-right">
+                <section id="region-main" class="<?php echo $regionmain; ?>">
                     <?php
                     echo $OUTPUT->course_content_header();
                     echo $OUTPUT->main_content();
+                    echo $OUTPUT->activity_navigation();
                     echo $OUTPUT->course_content_footer();
                     ?>
                 </section>
