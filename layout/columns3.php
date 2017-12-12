@@ -31,11 +31,10 @@
 // Get the HTML for the settings bits.
 $html = theme_dsv_theme_responsive_get_html_for_settings($OUTPUT, $PAGE);
 
-if (right_to_left()) {
-    $regionbsid = 'region-bs-main-and-post';
-} else {
-    $regionbsid = 'region-bs-main-and-pre';
-}
+$regionmainbox = 'span9 desktop-first-column';
+$regionmain = 'span8 pull-right';
+$sidepre = 'span4 desktop-first-column';
+$sidepost = 'span3 pull-right';
 
 global $PAGE;
 
@@ -94,7 +93,7 @@ echo $OUTPUT->doctype() ?>
     </header>
 
     <div id="page-content" class="row-fluid">
-        <div id="<?php echo $regionbsid ?>" class="span9">
+        <div id="region-main-box" class="<?php echo $regionmainbox; ?>">
             <div class="row-fluid">
                 <section id="region-main" class="<?php echo $regionmain; ?>">
                     <?php
@@ -104,10 +103,10 @@ echo $OUTPUT->doctype() ?>
                     echo $OUTPUT->course_content_footer();
                     ?>
                 </section>
-                <?php echo $OUTPUT->blocks('side-pre', 'span4 desktop-first-column'); ?>
+                <?php echo $OUTPUT->blocks('side-pre', $sidepre); ?>
             </div>
         </div>
-        <?php echo $OUTPUT->blocks('side-post', 'span3'); ?>
+        <?php echo $OUTPUT->blocks('side-post', $sidepost); ?>
     </div>
 
     <footer id="page-footer">
