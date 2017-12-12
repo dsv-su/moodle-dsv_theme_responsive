@@ -76,8 +76,7 @@ echo $OUTPUT->doctype() ?>
 <div id="page" class="container-fluid">
 
     <header id="page-header" class="clearfix">
-        <?php 
-        if ($PAGE->pagelayout == 'frontpage') { ?>
+        <?php if ($PAGE->pagelayout == 'frontpage') { ?>
         <div class="dsvlogo">
             <?php echo $html->heading; ?>
             <div class="logo-text">
