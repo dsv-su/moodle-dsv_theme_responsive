@@ -54,12 +54,14 @@ echo $OUTPUT->doctype() ?>
 <div id="page" class="container-fluid">
 
     <header id="page-header" class="clearfix">
+        <?php if ($PAGE->pagelayout == 'frontpage') { ?>
         <div class="dsvlogo">
             <?php echo $html->heading; ?>
             <div class="logo-text">
               <a href="/">Department of Computer and Systems Sciences</a>
             </div>
         </div>
+        <?php } ?>
         <div id="page-navbar" class="clearfix">
             <div class="breadcrumb-nav"><?php echo $OUTPUT->navbar(); ?></div>
             <nav class="breadcrumb-button"><?php echo $OUTPUT->page_heading_button(); ?></nav>
