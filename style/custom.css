@@ -383,8 +383,8 @@ span[id^='play.dsv.su.se'] > object > video {
 
 /* Minor fix (TODO: Clean dis shizz up..) for YouTube embeds */
 iframe {
-    height: 250px;
-    width: 100%;
+    /*height: 250px;*/
+    max-width: 99%;
 }
 
 /* Fix textarea to be not resizable any wider
@@ -752,6 +752,11 @@ html {
 /* Fix icons in navigation blocks so they're indented properly */
 .block_tree img.icon {
     padding-right: 0px;
+}
+
+/* Fix forum overview group name column */
+.path-mod-forum .forumheaderlist .discussion .group {
+    float: none;
 }
 
 /* Custom CSS Settings
