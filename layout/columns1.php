@@ -24,6 +24,7 @@ echo $OUTPUT->doctype() ?>
     <link rel="shortcut icon" href="<?php echo $OUTPUT->favicon(); ?>" />
     <?php echo $OUTPUT->standard_head_html() ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 </head>
 
 <body <?php echo $OUTPUT->body_attributes(); ?>>
@@ -95,5 +96,26 @@ echo $OUTPUT->doctype() ?>
     <?php echo $OUTPUT->standard_end_of_body_html() ?>
 
 </div>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#002e5f"
+    },
+    "button": {
+      "background": "#e17e33"
+    }
+  },
+  "content": {
+    "message": "This website uses cookies.",
+    "dismiss": "I understand",
+    "link": "Read more.",
+    "href": "https://ilearn2.dsv.su.se/mod/page/view.php?id=81374"
+  }
+});
+</script>
+
 </body>
 </html>
